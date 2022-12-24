@@ -4,6 +4,8 @@ function mayuscula(nombre) {
   //La función recibe un nombre y debe devolver el mismo que recibe pero con su primer letra en mayúscula
   //ej: Recibe "mario" ----> Devuelve "Mario"
   //Tu código:
+  let conMayuscula = nombre[0].toUpperCase() + nombre.substring(1);
+  return conMayuscula
 }
 
 function invocarCallback(cb) {
